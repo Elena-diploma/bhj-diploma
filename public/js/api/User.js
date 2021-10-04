@@ -34,7 +34,7 @@ class User {
    * авторизованном пользователе.
    * */
   static fetch(callback) {
-    return createRequest({data: data, method: 'GET', url: this.URL + '/current', responseType: 'json',
+    return createRequest({data: null, method: 'GET', url: this.URL + '/current', responseType: 'json',
       callback: (err, response) => {
         if(response && response.user) {
           this.setCurrent(response.user);
@@ -89,7 +89,7 @@ class User {
    * выхода необходимо вызвать метод User.unsetCurrent
    * */
   static logout(callback) {
-    return createRequest({data, method: 'POST', url: this.URL + '/logout', responseType: 'json',
+    return createRequest({data: null, method: 'POST', url: this.URL + '/logout', responseType: 'json',
       callback: (err, response) => {
         if(response && response.user) {
           this.unsetCurrent();

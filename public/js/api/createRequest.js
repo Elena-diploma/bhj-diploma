@@ -46,6 +46,7 @@ const createRequest = (options = {}) => {
         }
 
     }
+
     request.addEventListener('readystatechange', () => {
 
         if (request.readyState === request.DONE && request.status === 200) {

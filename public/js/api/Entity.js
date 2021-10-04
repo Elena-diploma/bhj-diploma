@@ -19,8 +19,8 @@ class Entity {
    * что наследуется от Entity)
    * */
   static create(data, callback) {
-    let modifiedData = Object.assign({ _method: 'PUT' }, data );
-    return createRequest({data: modifiedData, method: 'POST', url: this.URL, responseType: 'json', callback});
+    // let modifiedData = Object.assign({ _method: 'PUT' }, data );
+    return createRequest({data: data, method: 'PUT', url: this.URL, responseType: 'json', callback});
   }
 
   /**
