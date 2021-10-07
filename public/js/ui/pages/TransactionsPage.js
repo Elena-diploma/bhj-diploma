@@ -60,7 +60,7 @@ class TransactionsPage {
       return;
     }
     if (confirm('Вы действительно хотите удалить счёт?')) {
-      Account.remove(this.lastOptions.account_id, {}, (err, response) => {
+      Account.remove({id: this.lastOptions.account_id}, (err, response) => {
         if (response && response.success) {
           App.update();
         }
@@ -79,7 +79,7 @@ class TransactionsPage {
    * */
   removeTransaction( id ) {
     if (confirm('Вы хотите удалить эту транзакцию?')) {
-      Transaction.remove(id, {}, (err, response) => {
+      Transaction.remove({id: id}, (err, response) => {
         if (response && response.success) {
           App.update();
         }
@@ -100,7 +100,7 @@ class TransactionsPage {
       return;
     }
     this.lastOptions = options;
-    Account.get(options.account_id, {}, (err, response) => {
+    Account.get(options.account_id, (err, response) => {
       if (response && response.success) {
         this.renderTitle(response.data.name);
       }

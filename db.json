@@ -11,6 +11,12 @@
       "email": "elena.tursunova@gmail.com",
       "password": "123123",
       "id": "hinw1ookucxw304"
+    },
+    {
+      "name": "lena",
+      "email": "elena.tursunova+1@gmail.com",
+      "password": "123",
+      "id": "hinw7qtkuhcmp59"
     }
   ],
   "accounts": [
@@ -38,6 +44,16 @@
       "name": "qwewq",
       "user_id": "hinw1ookucxw304",
       "id": "hinw1qvkucxz65s"
+    },
+    {
+      "name": "vsfdssdfsd",
+      "user_id": "hinw7qtkuhcmp59",
+      "id": "hinw7rpkuhcnf23"
+    },
+    {
+      "name": "vxvcvcxvxc",
+      "user_id": "hinw7qtkuhcmp59",
+      "id": "hinw7zxkuhdz3hf"
     }
   ],
   "transactions": [
@@ -202,6 +218,114 @@
       "account_id": "hinw1qvkucxz65s",
       "user_id": "hinw1ookucxw304",
       "created_at": "2021-10-04T17:43:53.353Z"
+    },
+    {
+      "id": "hinw7zmkuhdy9i5",
+      "type": "income",
+      "name": "werwer",
+      "sum": 3213213,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:21:50.620Z"
+    },
+    {
+      "id": "hinw7zrkuhdyfzt",
+      "type": "income",
+      "name": "eqweqw",
+      "sum": 123123123,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:21:59.032Z"
+    },
+    {
+      "id": "hinw7zukuhdyxog",
+      "type": "expense",
+      "name": "rewrwer",
+      "sum": 4324,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:22:21.951Z"
+    },
+    {
+      "id": "hinw800kuhdz918",
+      "type": "income",
+      "name": "fsdfsdf",
+      "sum": 432432,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:22:36.667Z"
+    },
+    {
+      "id": "hinw803kuhdzfqp",
+      "type": "expense",
+      "name": "rewrewr",
+      "sum": 324324,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:22:45.360Z"
+    },
+    {
+      "id": "hinw807kuhe030s",
+      "type": "income",
+      "name": "sdsadsadas",
+      "sum": 2321321,
+      "account_id": "hinw7zxkuhdz3hf",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:23:15.531Z"
+    },
+    {
+      "id": "hinw80akuhe0abl",
+      "type": "expense",
+      "name": "fsdfsd",
+      "sum": 123,
+      "account_id": "hinw7zxkuhdz3hf",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:23:24.993Z"
+    },
+    {
+      "id": "hinw80dkuhe111o",
+      "type": "income",
+      "name": "fsdsdfds",
+      "sum": 123,
+      "account_id": "hinw7zxkuhdz3hf",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:23:59.627Z"
+    },
+    {
+      "id": "hinw80jkuhe18oa",
+      "type": "expense",
+      "name": "fsdsd",
+      "sum": 3432,
+      "account_id": "hinw7zxkuhdz3hf",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:24:09.513Z"
+    },
+    {
+      "id": "hinw80nkuhe2gx6",
+      "type": "income",
+      "name": "fdsfds",
+      "sum": 123,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:25:06.857Z"
+    },
+    {
+      "id": "hinw80wkuhe2n0p",
+      "type": "expense",
+      "name": "fsdfsd",
+      "sum": 123,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:25:14.760Z"
+    },
+    {
+      "id": "hinw80zkuhe2zi1",
+      "type": "expense",
+      "name": "sdfsd",
+      "sum": 321321,
+      "account_id": "hinw7rpkuhcnf23",
+      "user_id": "hinw7qtkuhcmp59",
+      "created_at": "2021-10-07T20:25:30.936Z"
     }
   ]
 }
